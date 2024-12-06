@@ -31,6 +31,7 @@
 - - Vihjeissä luki että tässä kohtaa pitäisi fuzzata jotta käyttäjän ID löytyisi. Testasin numeroita ylöspäin ja oikea käyttäjäID löytyi, joka oli "2342388".
 - 
 ## Missing Function Level Access Control (ei kohtaa 4)
+
 ![image](https://github.com/user-attachments/assets/7c50f927-87e4-4b23-8132-0718e945817d)
 
 - Tehtävänannosta päättelin, että tehtävässä käytetään dev toolseja selaimessa. Tutkin Inspectorissa elementit auki tuloksetta. 
@@ -58,13 +59,18 @@
 
 ### Insecure Login
 - Tässä kohdassa nappasimme ZAP:illa paketin kiinni ja saimme käyttöön käyttäjätiedot "CaptainJack" sekä "BlackPearl".
+
 ![image](https://github.com/user-attachments/assets/832ce4bd-16c8-416c-954d-c9b9c6c456a0)
+
 ![image](https://github.com/user-attachments/assets/393248bd-677a-425e-bd95-90abe8185a92)
 
 ## Server Side Request Forgery
 - Muutamme "tom.png" "jerry.png":ksi ohjeiden mukaisesti.
+
 ![image](https://github.com/user-attachments/assets/1a24c1ed-1a19-4fbc-8041-8279594fed90)
+
 - Toisessa kohdassa muutetaan URL tiedostosijainnin sijasta. Vaihdetaan kissakuvan URL, tehtävänannossa pyydettyyn "http://ifconfig.pro" urliin.
+
 ![image](https://github.com/user-attachments/assets/890ef065-95da-440d-9867-a1eab497567a)
 
 
